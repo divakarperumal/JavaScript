@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+form{
+    width: 100%;
+    margin-left: 0 50%;
+}
+input{
+    border-width: 3px;
+    width: 30%;
+    height: 30px;
+    min-width: 200px;
+}

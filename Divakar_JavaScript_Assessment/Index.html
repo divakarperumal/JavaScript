@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Application Form</title>
+        <link href="style/Style Sheet.css" rel="stylesheet">
+        <script src="Script/Script.js"></script>
+    </head>
+    <body>
+    <form href="#">
+        <h1>Submit your Application</h1>
+        <h2>for .NET Developer (Fresher)</h2>
+        <h3>Personal Information</h3>
+        <div>
+            <!-- CONTACT INFO -->
+            <lable>Name as per ID proof</lable><label id="eName" style="color: red;visibility: hidden;"> Required</label><br><br>
+            <input id="name" type="text" placeholder="name" ></input><br><br>
+            
+            <label>Father Name</label><label id="fName" style="color: red;visibility: hidden;"> Required</label><br><br>
+            <input id="fname" type="text"><br><br>
+            <lable>Email</lable><label id="email" style="color: red;visibility: hidden;"> Invalid</label><br><br>
+            <input id="eMail" type="text"><br><br>
+            <label>Date Of Birth</label><br><br>
+            <input type="date" ><br><br>
+            <lable>Mobile Number</lable><label id="mNumber" style="color: red;visibility: hidden;"> Invalid</label><br><br>
+            <input id="mnumber" type="number" ><br><br>
+            <!-- CURRENT ADDRESS -->
+            <div>
+                <lable>Current Address</lable><label id="iAddress" style="color: red;visibility: hidden;"> Required</label><br><br>
+                <input id="address" type="text" placeholder="address line 1" ><br><br><input type="text"placeholder="address line 2" class="find"><br><br>
+                <input type="text" placeholder="distric" class="find"><br><br>
+                <select >
+                    <option>Tmail Nadu</option>
+                    <option>kerela</option>
+                    <option>UP</option>
+                    <option>Delhi</option>
+                </select><br><br><input type="text" placeholder="Zip Code" class="find"><br><br>
+            </div>
+            <!-- PERMANENT ADDRESS -->
+            <div>
+                <lable>Permanent Address</lable><br><br><input id="cBox" name="checked" type="checkbox" value="true">same as current Address</input><br><br>
+                <input type="text" id="fad1"><br><br><input type="text"placeholder="address line 2" class="fill"><br><br>
+                <input type="text" placeholder="distric" class="fill"><br><br>
+                <select >
+                    <option value="Tamil Nadu">Tmail Nadu</option>
+                    <option value ="kerela">kerela</option>
+                    <option value="UP">UP</option>
+                    <option value="Delhi">Delhi</option>
+                </select><br><br><input type="text" placeholder="Pin Code" class="fill"><br><br>
+            </div>
+            <div>
+                <label>upload photo</label><br>
+                <input type="file"><br>
+            </div>
+            <!-- SUBMIT BUTTON -->
+            <div>
+                <button type="button" onclick="check()">check</button> 
+            </div>
+        </div>
+        
+    </form>
+    </body>
+</html>
